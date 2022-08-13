@@ -1,0 +1,162 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 6px;
+  border-top-color: grey;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  margin-right: 30px;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+}
+
+/*Her way of answering*/
+.top-container {
+  background-color: #e4f9f5;
+  position: relative; /*She put this as to what the clouds in aboslute postion should be positioned in relation to.*/
+  padding-top: 100px; /*Padding to add more space and make it more visually appealing.*/
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+/*.top-cloud {
+  position: relative;
+  margin-left: 375px;
+  padding-top: 50px;
+  my answer to the challenge.
+}*/
+
+/* text-align propeerty can be put in the container or parent element that doesn't have a width set.*/
+h1 {
+  color: #66bfbf;
+  margin: 50px auto 0 auto; /*it's much better to use px in things like padding/margin/etc as it's more precise.*/
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem; /* rem is best preffered for size units.*/
+  /*note that if you specify it in pixels like now it's static not dynamic
+  other size to keep in mind is that 16px=(1em=100%) the 2 units in brackets are dynamic.*/
+
+  /* ((width: 10%;))*/ /*When we added width to the h1 it couldn't be centered but it's not a problem because we can use another property for margin which is (auto)*/
+  /*((margin: 0 auto 0 auto;))*/ /*can be used to center text horizontally or vertically in this case horizontally when width is set.
+  ps.. the 0 and auto represent the top-right-bottom-left directions clockwise as stated before.
+  pss. you can alse check the margin shortcuts once again from mdn docs*/
+}
+
+.middle-container {
+  padding-top: 50px;
+}
+.para1 {
+  color: #40514e;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #66bfbf;
+}
+
+.footer-para {
+  color: #eaf6f6;
+  padding-top: 20px 0;
+}
+
+.para2 {
+  margin: 50px 0;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+a {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.eat {
+  width: 25%;
+  float: left;
+  padding-right: 30px; /*margin-right works here as well*/
+}
+
+.coding {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/*.eating-description {
+  clear: left;
+}*/
+
+/*.coding-description {
+  clear: right;
+}
+a way to make the text not wrap around the image if you so want.*/
